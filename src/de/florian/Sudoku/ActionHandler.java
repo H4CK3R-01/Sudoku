@@ -41,7 +41,7 @@ public class ActionHandler implements ActionListener {
 		}
 		
 		if (fertig == true) {
-			JOptionPane.showMessageDialog(UI.frame, "Alles ausgefüllt\nErgebnis wird überprüft!");
+			JOptionPane.showMessageDialog(UI.frame, "Alles ausgefÃ¼llt\nErgebnis wird Ã¼berprÃ¼ft!");
 			for (int y = 0; y < 9; y++) {
 				for (int z = 0; z < 9; z++) {
 					if(Main.SudokuMitNullen[y][z] != Main.SudokuFertig[y][z]){

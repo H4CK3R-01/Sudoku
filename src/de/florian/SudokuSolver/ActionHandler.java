@@ -49,7 +49,7 @@ public class ActionHandler implements ActionListener {
 		}
 	}
 
-	// Sudoku überprüfen
+	// Sudoku Ã¼berprÃ¼fen
 	void checkSudoku() {
 		newValues.clear();
 		int counter = 100;
@@ -70,7 +70,7 @@ public class ActionHandler implements ActionListener {
 		}
 	}
 
-	// Reihe überprüfen
+	// Reihe Ã¼berprÃ¼fen
 	void checkRow(int y, int x) {
 		newValues.clear();
 		for (int a = 0; a < 10; a++) {
@@ -86,7 +86,7 @@ public class ActionHandler implements ActionListener {
 		}
 	}
 
-	// Spalte überprüfen
+	// Spalte Ã¼berprÃ¼fen
 	void checkColumn(int y, int x) {
 		for (int i = 0; i < 9; i++) {
 			column[i] = Main.sudoku[i][x];
@@ -106,7 +106,7 @@ public class ActionHandler implements ActionListener {
 		}
 	}
 
-	// Felder überprüfen
+	// Felder Ã¼berprÃ¼fen
 	void checkField(int y, int x) {
 		int yWert = ((int) (y / 3)) * 3;
 		int xWert = ((int) (x / 3)) * 3;
